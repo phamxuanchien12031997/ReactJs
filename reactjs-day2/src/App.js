@@ -12,8 +12,10 @@ const App = () => {
 
   return (
     <div>
-      <Display setCount={setCount} />
-      <h1>Count: {count}</h1>
+      <div>
+        <h1>Count: {count}</h1>
+        <Display setCount={setCount} />
+      </div>
       <table>
         <thead>
           <tr>
