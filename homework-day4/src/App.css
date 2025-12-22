@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 0 0 5px gray;
+  text-align: center;
+}
+
+.loginForm {
+  border-radius: 10px;
+  box-shadow: 0 0 5px gray;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 300px;
+  font-size: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form input {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.form button {
+  margin: 0px auto;
+  padding: 5px 20px 5px 20px;
+  border-radius: 10px;
+}
+
+.form button:hover {
+  cursor: pointer;
+  background-color: aquamarine;
+}
+
+.home {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard button {
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+}
+
+.dashboard button:hover {
+  background-color: azure;
+  cursor: pointer;
+  color: red;
+}
+
+.dashboard-user {
+  text-decoration: none;
+  display: flex;
+  gap: 10px;
+}
+
+.product {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px gray;
+  padding: 10px;
+}
