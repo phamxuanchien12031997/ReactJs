@@ -1,6 +1,7 @@
 import React from 'react'
 
 const User = () => {
+
     return (
         <div>
             <h1>AllUser</h1>

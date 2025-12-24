@@ -79,3 +79,18 @@ a {
   box-shadow: 0 0 5px gray;
   padding: 10px;
 }
+
+.imgCover {
+  width: 100vw;
+  height: 100vh;
+  margin: 20px 5px 0px 5px;
+}
+.imgAvata{
+  width: 60px;
+  border-radius: 50px;
+}
+.avata-logout{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
