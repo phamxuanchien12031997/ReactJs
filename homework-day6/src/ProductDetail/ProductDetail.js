@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import '../ProductDetail/ProductDetail.css'
 
 const ProductDetail = () => {
-  const { id } = useParams();       // 👈 lấy id từ URL
+  const { id } = useParams(); 
   const navigate = useNavigate();
   const [product, setProduct] = useState(null);
 
